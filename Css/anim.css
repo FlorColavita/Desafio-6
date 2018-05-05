@@ -1,0 +1,19 @@
+
+@keyframes desplazar {
+	0% {transform: translate(0);
+
+	}
+	50% {transform: translate(50px);
+
+	}
+	100% {transform: translate(100px);
+
+	}
+
+div {
+	width:20px;
+	height:60px;
+	animation-name:desplazar;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+}
